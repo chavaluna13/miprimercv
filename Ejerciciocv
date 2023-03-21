@@ -1,51 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>José Salvador Luna Madrid - Fisioterapeuta</title>
+  <title>Mi CV</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>José Salvador Luna Madrid</h1>
-    <h2>Fisioterapeuta</h2>
+    <img src="https://via.placeholder.com/150" alt="Nombre" class="name">
+    <h2>José Salvador Luna Madrid</h2>
+    <img src="https://via.placeholder.com/150" alt="Imagen de perfil" class="image-profile">
   </header>
   <main>
-    <section>
-      <h3>Experiencia profesional</h3>
-      <ul>
-        <li>
-          <h4>Hospital ABC, Ciudad de México</h4>
-          <p>Fisioterapeuta, 2019-2023</p>
-          <ul>
-            <li>Evaluación y tratamiento de pacientes con lesiones musculoesqueléticas agudas y crónicas.</li>
-            <li>Desarrollo de planes de tratamiento personalizados para cada paciente.</li>
-            <li>Colaboración con médicos y otros profesionales de la salud para asegurar una atención integral al paciente.</li>
-            <li>Mantenimiento de registros precisos y completos de los tratamientos y progreso de los pacientes.</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h3>Educación</h3>
-      <ul>
-        <li>
-          <h4>Licenciatura en Fisioterapia, Universidad Nacional Autónoma de México (UNAM), 2015-2019</h4>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h3>Competencias y habilidades</h3>
-      <ul>
-        <li>Habilidad para evaluar y tratar lesiones musculoesqueléticas.</li>
-        <li>Conocimientos avanzados en anatomía, fisiología y biomecánica.</li>
-        <li>Experiencia en el uso de técnicas de terapia manual, electroterapia y ejercicio terapéutico.</li>
-        <li>Excelente habilidad para la comunicación y trabajo en equipo.</li>
-        <li>Capacidad para trabajar en entornos de alta presión.</li>
-      </ul>
-    </section>
+    <h2>Experiencia Profesional</h2>
+    <ul>
+      <li>
+        <h3>Hospital ABC, Ciudad de México</h3>
+        <p>Fisioterapeuta, 2019-2023</p>
+        <ul>
+          <li>Evaluación y tratamiento de pacientes con lesiones musculoesqueléticas agudas y crónicas.</li>
+          <li>Desarrollo de planes de tratamiento personalizados para cada paciente.</li>
+          <li>Colaboración con médicos y otros profesionales de la salud para asegurar una atención integral al paciente.</li>
+          <li>Mantenimiento de registros precisos y completos de los tratamientos y progreso de los pacientes.</li>
+        </ul>
+      </li>
+    </ul>
+    <h2>Educación</h2>
+    <ul>
+      <li>
+        <h3>Licenciatura en Fisioterapia, Universidad Nacional Autónoma de México (UNAM), 2015-2019</h3>
+      </li>
+    </ul>
+    <h2>Competencias y habilidades</h2>
+    <ul class="skills">
+      <li>Habilidad para evaluar y tratar lesiones musculoesqueléticas.</li>
+      <li>Conocimientos avanzados en anatomía, fisiología y biomecánica.</li>
+      <li>Experiencia en el uso de técnicas de terapia manual, electroterapia y ejercicio terapéutico.</li>
+      <li>Excelente habilidad para la comunicación y trabajo en equipo.</li>
+      <li>Capacidad para trabajar en entornos de alta presión.</li>
+    </ul>
   </main>
 </body>
 </html>
+
