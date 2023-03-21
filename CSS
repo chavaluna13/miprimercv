@@ -8,15 +8,19 @@ header {
   background-color: #0077b6;
   color: white;
   padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+.name {
+  height: 50px;
+  margin-right: 20px;
 }
 
-header h2 {
-  font-size: 2rem;
+.image-profile {
+  height: 100px;
+  border-radius: 50%;
 }
 
 main {
@@ -26,22 +30,18 @@ main {
   border: 1px solid #e0e0e0;
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
-section h3 {
-  font-size: 1.5rem;
+h2 {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 ul {
   list-style: none;
+  margin-bottom: 2rem;
 }
 
-ul li h4 {
-  font-size: 1.2rem;
+ul li h3 {
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-ul li p {
